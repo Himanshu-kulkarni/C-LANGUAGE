@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<math.h>
 
 int main() {
 
@@ -7,7 +8,6 @@ int main() {
     /*this my first big comment
     it spans into multiple lines
     and it is very big
-    no very big
     */ 
 
     printf("I like pizza\n");
