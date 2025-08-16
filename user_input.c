@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>// for strlen function
 
 int main()
 {
@@ -38,12 +39,14 @@ int main()
     // fgets reads a line from the input and stores it in the string
     // it stops reading when it encounters a newline character or reaches the specified size
     // it also includes the newline character in the string, so you may want to remove it later
+    name[strlen(name) -1] = '\0';
+    // this removes the new line character if present
 
-
+    printf("%s\n", name);
     printf("%d\n", age);
     printf("%f\n", cgpa);
     printf("%c\n", grade);
-    printf("%s\n", name);
+    
 
     return 0;
     /*
