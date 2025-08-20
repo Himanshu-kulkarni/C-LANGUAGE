@@ -31,6 +31,7 @@ non-zero means the program has failed to execute
     printf("its really good\n");
     printf("pizza are great to eat if you are not the one paying\n");
     printf("I like to eat pizza with my friends\n");
+    printf("I live in Moshi");
     return 0;
 /*
 this is my second comment
