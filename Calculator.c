@@ -29,7 +29,13 @@ int main()
             result = num1 * num2;
             break;
         case '/':
-            result = num1 / num2;
+            if(num2==0)
+            {
+                printf("You cannot devide by zero\n");
+            }
+            else{
+            result = num1/num2;
+            }
             break;
         default :
             printf("Please enter the valid information");

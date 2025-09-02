@@ -10,7 +10,7 @@ int main()
     //x = round(x);
     //x = ceil(x);
     //x = floor(x);
-    //x = abs(x);
+    x = abs(x)
     
 
     printf("%f", x);
