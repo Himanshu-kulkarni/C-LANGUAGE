@@ -1,13 +1,14 @@
 #include<stdio.h>
+#include<stdbool.h>
 
 int main()
 {
     // logical operators = used to combine or modify boolean expressions
-    // && = and
-    // || = or
+    // && = and(it stops when it finds false statement)
+    // || = or(it stops when it finds true statements)
     // ! = not
 
-    int temp = 0;
+    /*int temp = 0;
     float cgpa = 0;
 
     printf("Enter the temp: ");
@@ -30,7 +31,14 @@ int main()
     }
     else{
         printf("your cgpa is good");
-    }
+    }*/
 
-    
+    bool issunny = false;
+
+    if(!issunny){
+        printf("It is cloudy today");
+    }
+    else{
+        printf("it is sunny today");
+    }
 }
