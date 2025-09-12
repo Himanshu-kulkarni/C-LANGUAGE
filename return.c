@@ -76,5 +76,4 @@ int main(){
     printf("The maximum integer is %d", max);
 
 return 0;
-
 }

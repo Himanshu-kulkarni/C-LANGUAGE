@@ -39,6 +39,7 @@ int main()
     switch(dayofweek){
         case 'M':
             printf("Today is Monday");
+            break;
         case 'T':
             printf("Today is Tuesday");
             break;

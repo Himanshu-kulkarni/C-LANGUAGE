@@ -7,7 +7,7 @@ int main()
     float cgpa= 1.0f;
     // float cgpa= 1.0; // this is also valid, but using 'f' is more explicit for float type
     char grade='A';
-    char name[30]="himanshu kulkarni";
+    char name[30]="";
 
     printf("ENTER YOUR AGE: ");
     scanf("%d", &age);

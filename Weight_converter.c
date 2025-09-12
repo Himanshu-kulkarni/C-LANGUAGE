@@ -29,7 +29,7 @@ int main()
         printf("THE WEIGHT IN KILOGRAMS IS: %f", kilograms);
     }
     else{
-        printf("BHOSADIKE PADHNE KO NHI ATT KYA?");
+        printf("BHOSADIKE PADHNE KO NHI ATTA KYA?");
     }
 
     return 0;
