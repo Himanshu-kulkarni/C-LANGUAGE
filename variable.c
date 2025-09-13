@@ -28,7 +28,7 @@ int main()
     char grade = 'A';
     // you cannot add any mathematical syllables to a char variable
     // it is just a single character
-    // simmilarly you can use any simbol like @#$%! in the char variable
+    // simmilarly you can use any symbol like @#$%! in the char variable
 
     char name[] = "Himanshu Kulkarni";
     char email[] = "fake2407@gmail.com";

@@ -19,4 +19,6 @@ int main()
     }
 
     printf("game exited");
+
+return 0;
 }
