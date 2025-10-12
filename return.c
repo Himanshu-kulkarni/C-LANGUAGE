@@ -38,7 +38,7 @@ double square(double num){
 int main(){
     //return = returns a value back to where you call function
 
-    int age = 15;
+    int age = 19;
 
 
     double x = square(2.1);

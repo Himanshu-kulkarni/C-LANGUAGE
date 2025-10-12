@@ -30,10 +30,13 @@ int main()
         {
             printf("Too High\n");
         }
+        else
+        {
+            printf("\nHurray you got it right\nthe answer %d is correct\n", answer);
+        }
     }while(guess != answer);
 
-    printf("\nHurry you got it right\nthe answer %d is correct\n", answer);
-    printf("it took you only %d tries to get it right\n", tries);
+    printf("it took you only %d tries to get it right\n\n", tries);
 
 
 return 0;

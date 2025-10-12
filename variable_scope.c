@@ -16,7 +16,8 @@ int subtract(int x, int y){
 int main(){
 
     //Variable scope= refers to where a variable is recognized and accessible.
-                     //variables can share name if the are in different scopes{}
+    //                variables can share name if the are in different scopes{}
+    
     int x = 3;
     int y = 4;
 

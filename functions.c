@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 
-void happybirthday(char name[], int age){
+void happybirthday(char name[], int age)
+{
     printf("\nHappy birthday to you\n");
     printf("Happy birthday to you\n");
     printf("Happy birthday dear %s\n", name);
