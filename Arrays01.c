@@ -7,6 +7,8 @@ int main()
     char name[] = "Himanshu Kulkarni";
 
     int size = sizeof(numbers)/sizeof(numbers[0]);
+    // size of function tells us the size of array in bytes, and if we divide the size of array by size 
+    // the size of an element of an array, we get number of elements...
 
     for(int i = 0; i < size; i++)
     {
