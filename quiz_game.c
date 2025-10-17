@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<ctype.h>
 
 int main()
 {
@@ -29,6 +30,8 @@ int main()
         printf("%s\n\n", options[i]);
         printf("Enter your answer: ");
         scanf(" %c", &guess);
+
+        guess = toupper(guess);
 
         if(guess == answerkey[i])
         {
