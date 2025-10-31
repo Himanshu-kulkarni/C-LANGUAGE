@@ -18,7 +18,7 @@ int main()
 
         pounds = kilograms*2.20462;
 
-        printf("THE WEIGHT IN POUNDS IS: %f", pounds);
+        printf("THE WEIGHT IN POUNDS IS: %.2f", pounds);
     }
     else if(choice == 2){
         printf("ENTER THE WEIGHT IN POUNDS: ");
@@ -26,7 +26,7 @@ int main()
 
         kilograms = pounds/2.20462;
 
-        printf("THE WEIGHT IN KILOGRAMS IS: %f", kilograms);
+        printf("THE WEIGHT IN KILOGRAMS IS: %.2f", kilograms);
     }
     else{
         printf("BHOSADIKE PADHNE KO NHI ATTA KYA?");
